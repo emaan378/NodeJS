@@ -1,0 +1,13 @@
+REST API  --JSON
+GET/users  --Listen all USERS(HTML File render)
+Get/api/users --Listen all Users (return JSON)
+
+GET/users1   --get the users with id1
+GET/users2   --get the users with id2
+Dynmain Routing
+GET/api/users/:id
+:id ->variable |Dynamic
+
+POST/users -create new user
+PATCH/users/id  --Edit the user w.r.t id
+DELETE/users/id --Delete the user w.r.t id
